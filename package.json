@@ -1,35 +1,30 @@
 {
-  "name": "oc_projet_developpeur_web_3_ohmyfood",
+  "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "Troisième projet du parcours \"Développeur web\" chez OpenClassroom. L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass",
+  "description": "Troisième projet du parcours Développeur Front-End d'OpenClassrooms. L'objectif de ce projet est de dynamisez une page web avec des animations CSS.",
   "main": "index.html",
-  "sitemap": {
-    "siteURL": "https://ohmyfood.mathisbarre.com/",
-    "exclude": [
-      "img/**/*"
-    ]
-  },
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "sass": "sass --watch --style compressed ./src/sass/main.scss:./src/style/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MathisBarre/MathisBarre_3_06102020.git"
+    "url": "git+https://github.com/leobrival/leobrival_3_01012021.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "animation-css",
+    "openclassrooms",
+    "integration",
+    "html5",
+    "css3",
+    "mockups"
+  ],
+  "author": "Léo Brival",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MathisBarre/MathisBarre_3_06102020/issues"
+    "url": "https://github.com/leobrival/leobrival_3_01012021/issues"
   },
-  "homepage": "https://github.com/MathisBarre/MathisBarre_3_06102020#readme",
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.28.0"
-  },
+  "homepage": "https://github.com/leobrival/leobrival_3_01012021#readme",
   "dependencies": {
-    "parcel-plugin-sitemap": "^2.1.6"
+    "sass": "^1.32.0"
   }
 }
